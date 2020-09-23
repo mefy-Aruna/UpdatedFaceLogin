@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content %}
+{% if session['logged_in'] %}
+<p>Oh no Dont show page</p>
+{% else %}
+
+<h2>Please Register</h2>
+<!-- <form action="/register/" method="POST">
+
+</form>
+{% endif %}
+{% endblock %}
